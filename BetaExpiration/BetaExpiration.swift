@@ -23,7 +23,7 @@ public struct BetaExpiration {
         if !isExpired() { return }
 
         let alert = NSAlert()
-        alert.messageText = "Your beta has expired. Please download a new version or get in touch:\nhi@christiantietze.de"
+        alert.messageText = "Your beta has expired. Please download a new version or get in touch:\nsomeone@example.com"
         alert.addButton(withTitle: "Quit")
         alert.runModal()
         NSApp.terminate(nil)

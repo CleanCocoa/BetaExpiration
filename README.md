@@ -23,8 +23,9 @@ Whatever you do, it's important that you can easily change the expiration date i
 ### Integration
 
 1. Hard code a new expiration date in `BetaExpiration.expiresAt`. You can compute the date by running the unit tests and looking at the console output.
-2. Call `BetaExpiration.guardExpiration()` from your `AppDelegate`. This will display an alert and quit the app if the beta period is over.
-3. _Optional:_ Decorate your app window with useful information for your beta testers. 
+2. Change the alert in `BetaExpiration.guardExpiration()` to show your e-mail address.
+3. Call `BetaExpiration.guardExpiration()` from your `AppDelegate`. This will display an alert and quit the app if the beta period is over.
+4. _Optional:_ Decorate your app window with useful information for your beta testers, see below.
 
 ### Window decoration
 
