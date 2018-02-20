@@ -7,6 +7,8 @@ public protocol Clock {
 }
 
 public struct SystemClock: Clock {
+    public init() { }
+    
     public func now() -> Date {
         return Date()
     }

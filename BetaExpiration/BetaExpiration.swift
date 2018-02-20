@@ -4,7 +4,7 @@ import Cocoa
 
 public struct BetaExpiration {
 
-    public static let expiresAt = Date(timeIntervalSinceReferenceDate: 517132777)
+    public static let expiresAt = Date(timeIntervalSinceReferenceDate: 543425368.016923)
 
     public static func daysLeft(_ clock: Clock = SystemClock()) -> Days {
 
