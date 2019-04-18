@@ -5,7 +5,7 @@ import Cocoa
 public class BetaExpirationViewController: NSViewController {
 
     public convenience init() {
-        self.init(nibName: NSNib.Name(rawValue: "BetaExpirationViewController"), bundle: Bundle(for: BetaExpirationViewController.self))
+        self.init(nibName: "BetaExpirationViewController", bundle: Bundle(for: BetaExpirationViewController.self))
     }
 
     @IBOutlet weak var label: NSTextField!
